@@ -13,7 +13,7 @@ first_window.resize(800, 300)
 # Set the form title
 first_window.setWindowTitle("The first pyqt program")
 
-# Show form
+# Show form  TETSTESTASDTAST
 first_window.show()
 
 # Run the program
