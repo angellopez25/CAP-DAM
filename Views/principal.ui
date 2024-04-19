@@ -14,12 +14,12 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>90</x>
       <y>20</y>
-      <width>445</width>
+      <width>544</width>
       <height>411</height>
      </rect>
     </property>
@@ -84,7 +84,7 @@
      <item row="2" column="0">
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="0">
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="btn_list">
          <property name="font">
           <font>
            <pointsize>12</pointsize>
@@ -98,7 +98,7 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="btn_update">
          <property name="font">
           <font>
            <pointsize>12</pointsize>
@@ -112,7 +112,7 @@
         </widget>
        </item>
        <item row="0" column="2">
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="btn_create">
          <property name="font">
           <font>
            <pointsize>12</pointsize>
@@ -126,7 +126,7 @@
         </widget>
        </item>
        <item row="0" column="3">
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="btn_select">
          <property name="font">
           <font>
            <pointsize>12</pointsize>
@@ -140,7 +140,7 @@
         </widget>
        </item>
        <item row="0" column="4">
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="btn_delete">
          <property name="font">
           <font>
            <pointsize>12</pointsize>
